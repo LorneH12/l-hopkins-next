@@ -139,3 +139,32 @@
 .category-image:has(img){--frame-inset:10%}
 .portrait:has(img)::before,.category-image:has(img)::before{border-color:var(--frame-color);border-bottom:0}
 .portrait:has(img)::after,.category-image:has(img)::after{content:"";position:absolute;left:var(--frame-inset);right:var(--frame-inset);bottom:0;border-bottom:1px solid var(--frame-color);background:none;box-shadow:none;pointer-events:none;z-index:3}
+
+/* Oversized editorial desktop portraits: bottom-anchored, original proportions. */
+@media(min-width:1000px){
+  .about>.portrait,.accomplishments>.portrait,.contact>.portrait{
+    position:absolute;top:-2rem;bottom:0;right:var(--gutter);width:44%;
+    height:auto!important;min-height:0;margin:0!important;align-items:flex-end;
+  }
+  .about>.portrait{left:var(--gutter);right:auto}
+  .about>.copy{grid-column:2}
+  .accomplishments>.copy{grid-column:1}
+  .about>.portrait .subject-crop,.accomplishments>.portrait .subject-crop,.contact>.portrait .subject-crop{
+    height:100%;width:auto;max-width:none;flex:none;
+  }
+  .contact{padding-top:7rem}
+  .contact>.section-heading{width:48%;margin-left:0;text-align:left}
+  .contact-grid>.copy{width:48%}
+  .contact footer{width:48%;flex-wrap:wrap}
+}
+
+@media(min-width:1000px){.about>.portrait,.accomplishments>.portrait,.contact>.portrait{align-self:stretch;height:calc(100% + 2rem)!important}}
+
+@media(min-width:1000px){.about>.portrait,.accomplishments>.portrait,.contact>.portrait{top:-2rem!important}}
+
+/* Mobile: modest breakout without adding a tall image-only scroll. */
+@media(max-width:800px){
+  .about>.portrait:has(.photo-0){height:20rem}
+  .accomplishments>.portrait:has(.photo-5){height:19rem}
+  .contact>.portrait:has(.photo-2){height:18rem;margin-bottom:1.5rem}
+}
