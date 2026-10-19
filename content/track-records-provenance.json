@@ -1,0 +1,31 @@
+{
+  "scope": "Historical record-setting performances, not claims of current all-time record ownership. National results retained in Accomplishments.",
+  "verification": "Root research verified primary meet results, supplied 2026-10-19.",
+  "records": [
+    {
+      "event": "2025 Arizona Association Junior Olympic Championships girls 13\u201314 100m",
+      "mark": "12.27 s",
+      "date": "2025-06-15",
+      "wind": "-0.3 m/s",
+      "result_marker": "AJO S",
+      "previous_record": "12.43 s",
+      "source": "https://athleticlive.nyc3.cdn.digitaloceanspaces.com/rawResults/54392/38b6e420220896e12a28a5279c2e067d.htm",
+      "event_number": 400
+    },
+    {
+      "event": "2025 Pioneer Meet girls 13\u201314 long jump",
+      "mark": "5.22 m",
+      "date": "2025-04-26",
+      "wind": "not reported (NWI)",
+      "result_marker": "P",
+      "previous_record": "4.74 m",
+      "source": "https://athleticlive.nyc3.cdn.digitaloceanspaces.com/rawResults/49652/1a1d19cb1c4a139f43949a8d49a75c37.htm",
+      "event_number": 422
+    }
+  ],
+  "unpublished_pending": [
+    "Owner season clarification for 2025-25",
+    "Four-event Arizona USATF youth ranking claim: middle-school versus USATF age-group cohorts differ",
+    "60m record claim: historical record-book conflict unresolved"
+  ]
+}

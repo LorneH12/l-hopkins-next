@@ -95,3 +95,5 @@ Local replacement QA passed at widths 1440, 1024, 800, 390, and 320: image decod
 
 ## Shared category disclosure — 2026-10-19
 Any Known For summary now opens/closes all three panels. One activation handler updates shared state, native open attributes, plus/minus glyphs, aria-expanded and aria-controls; no toggle-event feedback loop. Native keyboard activation and focus are retained. No transition added. Existing factual Track copy remains pending official Arizona ranking/record verification.
+
+Track Known For now uses two primary-source historical2025meetrecords, distinct from national accomplishments. No currentrecordholder or foureventranking/60mrecord claims. See content/track-records-provenance.json.
