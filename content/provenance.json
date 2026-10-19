@@ -4,9 +4,10 @@
   "github": {
     "owner": "LorneH12",
     "requestedRepository": "l-hopkins-next",
-    "visibility": "private",
+    "visibility": "public",
     "created": true,
-    "url": "https://github.com/LorneH12/l-hopkins-next"
+    "url": "https://github.com/LorneH12/l-hopkins-next",
+    "publicationApproval": "Owner approved visibility change after disclosure of source/media/notes/history exposure, 2026-10-19"
   },
   "canonicalNotion": "https://app.notion.com/p/3fdaae3a01ed81bc985eeee41d952020",
   "hero": {
