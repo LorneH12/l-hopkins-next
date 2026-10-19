@@ -132,3 +132,10 @@
   }
 }
 @keyframes tonal-roll{from{opacity:.08}to{opacity:.82}}
+
+/* Box illusion: back edges behind the subject, bottom edge in front. */
+.portrait:has(img),.category-image:has(img){--frame-color:#fff;--frame-inset:12%}
+.about .portrait:has(img){--frame-color:var(--blue)}
+.category-image:has(img){--frame-inset:10%}
+.portrait:has(img)::before,.category-image:has(img)::before{border-color:var(--frame-color);border-bottom:0}
+.portrait:has(img)::after,.category-image:has(img)::after{content:"";position:absolute;left:var(--frame-inset);right:var(--frame-inset);bottom:0;border-bottom:1px solid var(--frame-color);background:none;box-shadow:none;pointer-events:none;z-index:3}

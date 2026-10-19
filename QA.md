@@ -54,3 +54,8 @@ Frame correction: 1px pure-white border at full opacity; explicit no background/
 ## Same-family scroll tones — 2026-10-19
 Four-stop green, blue/navy and silver section gradients, with a reversed gradient layer animated only in opacity through native CSS view timelines. No scroll handler or layout reads. No-JS, unsupported browsers and reduced motion keep a static blend. Hero/video, portrait pixels and transparent white frames unchanged.
 Local Chromium checks at 1440 and 390: scroll opacity changes, reduced-motion/no-JS opacity stays .28 with no animation, six unfilled white frames, no horizontal overflow. Actual screenshots inspected. Lowest palette contrast: white/green 5.22:1, white/blue 7.45:1, ink/silver 10.15:1; large mint milestone numerals/green 3.64:1. Intermediate blends remain within these luminance bounds.
+
+
+## Frame depth correction — 2026-10-19
+About (More than a single lane) uses branded #1237B5. Six frames now use back top/side strokes at z0, unchanged subject at z1, and separate foreground bottom stroke at z3, with transparent interiors. Checked local 1440/768/390/320 images and no overflow; dedicated 1440/390/320 assertions verify all six colors, transparent backgrounds and layer order. Desktop About and mobile Football screenshots inspected.
+Front-facing Track replacement for #accomplishments (The work. The moments.) remains pending a faithful source alpha. Current IMG1970 rear three-quarter remains until asset handoff; no substitute or generated imagery used.
