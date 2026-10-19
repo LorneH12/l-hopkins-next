@@ -134,5 +134,16 @@
       "Montage and student excerpt are silent in this repository version",
       "No added audio, newly edited excerpt, or athletic outcome claims"
     ]
+  },
+  "copyUpdate": {
+    "authority": "Verified root evidence reconciliation, owner-authorized 2026-10-19",
+    "football": "Family-reported snapshot through October9 2026,5of11regular-season games played:12sacks,2.4pergame,78puntreturnyards,22rushingyards,longestpuntreturn28yards. No MaxPreps ranking association.",
+    "student": "Family-reported May2026 past student government and preschool/kindergarten mentoring experience; not a current Xavier office. No private-email details or private links published.",
+    "trackSources": [
+      "https://flashresults.com/2026_Meets/Indoor/03-12_NBIN/701-2_compiled.htm",
+      "https://flashresults.com/2026_Meets/Indoor/03-12_NBIN/723-1_compiled.htm",
+      "https://live.athletictiming.net/meets/74712/events/individual/2836029",
+      "https://results.adkinstrak.com/meets/54731/events/individual/2109552"
+    ]
   }
 }
