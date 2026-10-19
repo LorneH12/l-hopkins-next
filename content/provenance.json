@@ -1,0 +1,72 @@
+{
+  "status": "prototype; incomplete media intake; not deployed",
+  "subject": "L Hopkins",
+  "github": {
+    "owner": "LorneH12",
+    "requestedRepository": "l-hopkins-next",
+    "visibility": "private",
+    "created": true,
+    "url": "https://github.com/LorneH12/l-hopkins-next"
+  },
+  "canonicalNotion": "https://app.notion.com/p/3fdaae3a01ed81bc985eeee41d952020",
+  "hero": {
+    "libraryId": "libfile_b385a945073481918b38531119c8c964",
+    "editablePackage": "libfile_e363882ee60881919c787ba15add6e99",
+    "path": "assets/L-Hopkins-Three-Test-Loop-Rough-Cut-Review-v1.mp4",
+    "duration": 15.958,
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "sizeBytes": 8433197,
+    "generated": true,
+    "alpha": false,
+    "silent": true,
+    "approval": "user authorized rough site placeholder only",
+    "knownIssues": [
+      "Likeness and uniform deviations",
+      "Editorial reframing does not repair source anatomy",
+      "Not final alpha footage"
+    ],
+    "localBytesVerified": true,
+    "sha256": "42028356b9df0b2daf152e7e01ba253750caea2de7dab952061763d2ac880f6e",
+    "transfer": "Owner-downloaded native Library attachment; matching size/SHA256; copied from Downloads with original retained"
+  },
+  "portraits": {
+    "status": "pending pixel and alpha verification",
+    "track": "likeness conditionally accepted only; not final approval"
+  },
+  "facts": [
+    {
+      "claim": "Class of 2030; Xavier College Preparatory",
+      "source": "canonical Notion and authorized coordination handoff"
+    },
+    {
+      "claim": "2025 USATF National JO girls 13–14 long jump: 1st, 5.17 m, July 25 2025",
+      "source": "https://results.adkinstrak.com/meets/54731/events/individual/2109552",
+      "verification": "authorized team evidence; not independently opened here"
+    },
+    {
+      "claim": "2026 Nike Outdoor middle school girls 100m final: 4th, 12.08s, +0.3m/s, June 22",
+      "source": "https://live.athletictiming.net/meets/74712/events/individual/2836029",
+      "verification": "authorized team evidence; not independently opened here"
+    },
+    {
+      "claim": "12 sacks in 5 of 11 games through October 9, 2026",
+      "source": "family update; distinct from official ranking snapshot"
+    }
+  ],
+  "links": {
+    "instagram": "https://www.instagram.com/l.h0pkins",
+    "donation": "https://cash.app/$LHopkins7",
+    "donationAuthority": "direct owner statement: $LHopkins7 is her cash app",
+    "responseVerification": "pending"
+  },
+  "productionLessons": [
+    "Pause generation; preserve existing review outputs and editable assembly",
+    "Hard cuts avoid ghosting but can mismatch props",
+    "Camera movement must be inspected in pixels; body rotation is not equivalent",
+    "Cropping may remove edge defects, not internal anatomy or likeness drift",
+    "Opaque rough cut does not satisfy final alpha requirement"
+  ],
+  "licenses": "No paid template source; preserve original media rights"
+}
