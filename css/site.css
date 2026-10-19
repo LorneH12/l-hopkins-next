@@ -84,3 +84,27 @@
 .milestone .count-visual>span:not([data-count]) [data-count]{font-size:inherit;margin:0;color:inherit}
 
 [data-count="12"]{min-width:2ch}[data-count="12.08"]{min-width:5ch}
+
+/* Six faithful original-photo silhouettes: match surroundings, never recolour subjects. */
+.portrait:has(.photo-0){height:34rem}
+.portrait:has(.photo-5){height:30rem}
+.category-image .photo-1{height:32rem}
+.category-image .photo-3{height:48rem}
+.category-image .photo-4{height:27rem}
+.category-image:has(.photo-4){padding-top:0}
+.accomplishments{background:radial-gradient(ellipse at 85% 12%,#698274 0%,#0D7D3F 52%)}
+.track{background:linear-gradient(130deg,#f3eee4,#bcc6cd)}
+.contact>.portrait:has(.photo-2){height:25rem;top:-3rem}
+.contact{padding-top:25rem;background:radial-gradient(ellipse at 80% 0%,#7495ba,#1237B5 65%)}
+@media(max-width:800px){
+.portrait:has(.photo-0){height:29rem}
+.portrait:has(.photo-5){height:28rem}
+.category-image .photo-1{height:30rem}
+.category-image .photo-3{height:44rem}
+.category-image .photo-4{height:25rem}
+.contact>.portrait:has(.photo-2){height:25rem;top:auto}
+.contact{padding-top:5rem}
+}
+@media(max-width:380px){.portrait:has(.photo-0){height:27rem}}
+
+.category-image:has(.photo-4){padding-top:2rem}.category-image .photo-4{height:25rem}@media(max-width:800px){.category-image .photo-4{height:23rem}}

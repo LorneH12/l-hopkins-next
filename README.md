@@ -18,3 +18,6 @@ The owner-supplied three-alpha ZIP was size/hash checked and safely extracted. O
 
 ## Superseding owner correction
 Original-photo cutouts only. Generated Student/Track stills removed from current layout and repository HEAD; prior commits retain historical versions. Original school IMG_2523 and track IMG_1991 bytes are pending owner-assisted transfer. Background removal only; no reconstruction, uniform recoloring or face/body edits. Hero unchanged pending separate owner decision.
+
+## Current six-pose first pass
+All six body placements now use verified original-photo alpha masks from assets/original-six; see its provenance.json. Two distinct outward-football poses; School standing and street; Track side/walking and rear three-quarter. Hoodie omitted due clipped source head. Native PNG bytes untouched, no added anatomy or footwear. First-pass edge fringe and limited Track resolution remain. Hero remains the existing rough video.

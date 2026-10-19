@@ -1,0 +1,183 @@
+{
+  "package": "Six original-photo alpha-only cutouts, first pass",
+  "date_utc": "2026-10-19",
+  "method": "Non-generative background masking only. Native canvases and all decoded source RGB pixels preserved, including transparent pixels. No source rescaling or subject retouching. Original JPEG decoding defines pixel reference.",
+  "edge_quality": "First-pass manual/deterministic masks, with antialiased alpha. Approximate fine hair and thin original-background fringes remain. No RGB edge decontamination.",
+  "missing_requested_pose": "Hoodie original clips the head, so use the complete standing School photograph supplied here.",
+  "items": [
+    {
+      "filename": "Football-Outward-Free-Hand.png",
+      "title": "Football: outward ball / free hand",
+      "source_filename": "55563378245_88cd6570fb_o.jpg",
+      "source_library_file_id": "libfile_e62fc9752b988191b42bae97017d34ea",
+      "cutout_library_file_id": "libfile_4d3d06acc1448191a7c86899b65ec093",
+      "source_sha256": "ce5e7ff1b7e2367b0e6186728919c9b35d6f306ba6f96ad8ea3fe645c457bf06",
+      "cutout_sha256": "8dd3daa2b2367ca96addd8bead6254793b0b153a2a5f236564a6041cad5f727c",
+      "file_size_bytes": 1955802,
+      "native_dimensions": [
+        1365,
+        2048
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bounds_xyxy": [
+        300,
+        334,
+        900,
+        1945
+      ],
+      "source_rgb_exact_every_pixel": true,
+      "changed_rgb_channels": 0,
+      "crop_and_use": "Lower matte ends above clipped shoe fronts. Anchor bottom against a layout edge or crop above knees. Original free-hand motion blur retained.",
+      "background_light_fit": "Soft studio light; neutral or navy backdrop fits."
+    },
+    {
+      "filename": "Football-Outward-Lowered-Arm.png",
+      "title": "Football: outward ball / lowered arm",
+      "source_filename": "55561955322_cf60f4d266_o(1).jpg",
+      "source_library_file_id": "libfile_361042082d8c81919aeb832c4311d124",
+      "cutout_library_file_id": "libfile_a546b077bfc48191a71e2ba666002721",
+      "source_sha256": "cd460b3c429b8dcd9d0aed1b5a6d4c914ec99e276713e379df94353e5b5bfe83",
+      "cutout_sha256": "6c76c2765e75a35ca3a2af5aac9a57e14a00b5014812b6fd61a7f86e3be25d4f",
+      "file_size_bytes": 1445971,
+      "native_dimensions": [
+        2048,
+        1365
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bounds_xyxy": [
+        662,
+        159,
+        1373,
+        1365
+      ],
+      "source_rgb_exact_every_pixel": true,
+      "changed_rgb_channels": 0,
+      "crop_and_use": "Photographed canvas ends at upper thighs. Anchor the source bottom to a layout edge.",
+      "background_light_fit": "Soft studio light; neutral or navy backdrop fits."
+    },
+    {
+      "filename": "School-Street-IMG2542.png",
+      "title": "School: street pose",
+      "source_filename": "IMG_2542(1).jpeg",
+      "source_library_file_id": "libfile_a9944725ab848191a463e64667928cf2",
+      "cutout_library_file_id": "libfile_768cfe7f456c8191a4ad914195c86b8e",
+      "source_sha256": "59466e5570528deb93a860d3b4fef991f7acee42cd0ac0c019d8b8bea22367e5",
+      "cutout_sha256": "47bc5151d023eb48a95371b824bbb552fa774b2996a0af3ac7ea2029aa0aadcb",
+      "file_size_bytes": 2015442,
+      "native_dimensions": [
+        1152,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bounds_xyxy": [
+        371,
+        457,
+        593,
+        1156
+      ],
+      "source_rgb_exact_every_pixel": true,
+      "changed_rgb_channels": 0,
+      "crop_and_use": "Full photographed head, body and brown shoes retained. Small subject in source; avoid oversized hero enlargement.",
+      "background_light_fit": "Hard upper camera-left sunshine and strong face shadow. Adapt backdrop lighting; do not relight subject."
+    },
+    {
+      "filename": "School-Standing-IMG2523.png",
+      "title": "School: standing fallback",
+      "source_filename": "IMG_2523(1).jpeg",
+      "source_library_file_id": "libfile_b18d694363a48191b40e42dd7c5cb605",
+      "cutout_library_file_id": "libfile_f2b37ee2bb4c8191b57ebea34c81060e",
+      "source_sha256": "84d128dfafb6f420cc24c88bb864d01dc20e5ba0c24769ae266512d7ec1dd8a7",
+      "cutout_sha256": "b8232256d8c79d6d063fd00ed79a4fdd380f3b3f5692758465b34589058ee20a",
+      "file_size_bytes": 1679753,
+      "native_dimensions": [
+        1152,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bounds_xyxy": [
+        333,
+        326,
+        708,
+        1513
+      ],
+      "source_rgb_exact_every_pixel": true,
+      "changed_rgb_channels": 0,
+      "crop_and_use": "Complete photographed head, hands, bag and real shoes. Replaces clipped-head hoodie.",
+      "background_light_fit": "Soft outdoor light; diffuse neutral or navy backdrop fits."
+    },
+    {
+      "filename": "Track-Side-Walking-IMG1966.png",
+      "title": "Track: side / walking",
+      "source_filename": "IMG_1966.jpeg",
+      "source_library_file_id": "libfile_e5d262984fa481918b6e82e4da289708",
+      "cutout_library_file_id": "libfile_b3b6d59b855c8191a3b734cbf40f26b5",
+      "source_sha256": "6c1e13526d69b74fdefd5c2061010a34a451f8d9652b673104cc4d98c0d54901",
+      "cutout_sha256": "81c873bc35b69a5e20507c16355a8aa17ea0284c94ea809c078d2de9a444b95f",
+      "file_size_bytes": 1168798,
+      "native_dimensions": [
+        1536,
+        709
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bounds_xyxy": [
+        512,
+        177,
+        800,
+        709
+      ],
+      "source_rgb_exact_every_pixel": true,
+      "changed_rgb_channels": 0,
+      "crop_and_use": "Source is thigh-cropped. Anchor bottom to layout edge. Visible subject only about 288 by 532 source pixels; avoid large enlargement.",
+      "background_light_fit": "Directional outdoor sunshine; retain warm source edge colour and adapt background."
+    },
+    {
+      "filename": "Track-Rear-Three-Quarter-IMG1970.png",
+      "title": "Track: rear three-quarter",
+      "source_filename": "IMG_1970(2).jpeg",
+      "source_library_file_id": "libfile_f32596a335f08191ab63bb90004bfc1b",
+      "cutout_library_file_id": "libfile_aae9bf35949881918ca326c0a38c6300",
+      "source_sha256": "5e7e43e10dd03d182853070a84238d19858d1ddf34f1fcff0cff9fabddb97f2d",
+      "cutout_sha256": "9df835c2c0ccf2c20f9891e202b3f613c49cb55de246f0883b08c7eb4344d960",
+      "file_size_bytes": 1026966,
+      "native_dimensions": [
+        1536,
+        709
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bounds_xyxy": [
+        787,
+        199,
+        1036,
+        709
+      ],
+      "source_rgb_exact_every_pixel": true,
+      "changed_rgb_channels": 0,
+      "crop_and_use": "Source ends at upper thighs. Use as a small secondary pose, bottom aligned. Visible subject about 249 by 510 source pixels.",
+      "background_light_fit": "Strong directional sun on shoulder with shaded profile. Adapt background lighting to source."
+    }
+  ]
+}
