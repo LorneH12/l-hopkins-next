@@ -85,3 +85,9 @@ Local hero QA1440/390 passed: actual natural end-to-start loop at normal playbac
 ## RFP hero/entrance correction
 RFP report confirmed wrong-looking media was Highlightposter fallback, not a source swap. Removed Highlightposter from Hero only; Highlight keeps its originalposter/source and all5other videos remain manual/nonloop/nonautoplay. Hero falls back to its own decoded frame or staticCSS background, no newmedia. Current Accomplishments Track remains480px source-appropriate height pending verifiedIMG1989 download.
 Entrance observer now tracks invisible1px geometry marker at outline-top+16px desktop/+32pxmobile, not15% of whole subject. Tested1440/390: no entry beforeframevisible, still no entry at8pxvisible, entry by64pxvisible, onceonly after reentry, reducedmotionstatic. Original user screenshots not exposed by read_thread; RFP report and actual rendered reproduction reviewed. Mobileplacement otherwise unchanged pending explicit clarification.
+
+
+## Owner-selected replacement images — 2026-10-19
+Track Accomplishments and School Contact now use the two explicitly selected edited attachments. Local copies verified pixel-identical to attachments with independent decoded RGBA hashes. Source files copied intact, preserving embedded metadata; CSS framing only. See content/selected-edited-provenance.json. Prior IMG1989/IMG2541 pending replacements superseded.
+
+Local replacement QA passed at widths 1440, 1024, 800, 390, and 320: image decode, bottom anchors, full subject bounds, frame layer order, reduced-motion static rendering, no horizontal overflow or JavaScript errors. Desktop/mobile screenshots inspected for both replacements. Track retains its source thigh cutoff; School retains head and shoes.

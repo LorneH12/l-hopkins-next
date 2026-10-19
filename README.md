@@ -23,3 +23,7 @@ Original-photo cutouts only. Generated Student/Track stills removed from current
 All six body placements now use verified original-photo alpha masks from assets/original-six; see its provenance.json. Two distinct outward-football poses; School standing and street; Track side/walking and rear three-quarter. Hoodie omitted due clipped source head. Native PNG bytes untouched, no added anatomy or footwear. First-pass edge fringe and limited Track resolution remain. Hero remains the existing rough video.
 
 Current web exports (2026-10-19): subtle alpha-only edge polish on six displayed cutouts; original RGB preserved wherever alpha is nonzero. Hidden RGB zeroed only at alpha0 in all current PNG exports. See content/web-export-provenance.json for source/export hashes. Source manifests describe archival inputs. Unmodified originals retained outside public repo; prior public Git history still contains previous bytes.
+
+
+### Current selected image replacements
+Accomplishments and Contact use the two edited images explicitly selected by the owner on October 19, 2026. They are not original-pixel photographic masks. Local source copies are pixel-identical to the selected Library attachments; PNG bytes and embedded credentials remain intact. Only CSS framing is applied. See content/selected-edited-provenance.json for exact hashes, approval, and crops. The earlier pending IMG1989/IMG2541 replacements are superseded.

@@ -1,5 +1,5 @@
 {
-  "status": "Published first-pass original-photo cutout prototype; existing rough hero unchanged",
+  "status": "Published prototype with four original-photo cutouts and two owner-selected edited replacements; rough hero unchanged",
   "subject": "L Hopkins",
   "github": {
     "owner": "LorneH12",
@@ -147,5 +147,14 @@
       "https://live.athletictiming.net/meets/74712/events/individual/2836029",
       "https://results.adkinstrak.com/meets/54731/events/individual/2109552"
     ]
+  },
+  "currentSelectedReplacements": {
+    "manifest": "content/selected-edited-provenance.json",
+    "overrides": [
+      "Accomplishments replaces Track-Rear-Three-Quarter-IMG1970.png",
+      "Contact replaces School-Street-IMG2542.png"
+    ],
+    "priorPending": "IMG1989 and IMG2541 requests superseded by owner selection",
+    "generatedOrEdited": true
   }
 }

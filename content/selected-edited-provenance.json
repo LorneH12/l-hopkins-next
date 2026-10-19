@@ -1,0 +1,50 @@
+{
+  "decision": "Owner explicitly selected these two edited attachments on 2026-10-19, superseding pending original-mask replacements.",
+  "provenance": "Edited/generated source versions contain re-rendered facial/clothing details. These are not original-pixel photographic masks. No new generation, retouching, feathering, or pixel modification in this installation.",
+  "verification": "Independent attachment review confirmed exact decoded RGBA equality, including alpha and hidden RGB, despite differing PNG container metadata. Local PNG bytes copied intact, retaining embedded credentials.",
+  "framing": "CSS-only crop to approved bounds; complete school height, hair and shoes retained. Track source ends at thighs, anchored to foreground frame bottom with both hands/elbows retained.",
+  "assets": [
+    {
+      "section": "accomplishments",
+      "source": "ChatGPT Image Oct 18, 2026, 10_55_14 PM-1.png",
+      "name": "Track-Selected-IMG1992-Edited.png",
+      "pixel": "2f5a0ab01f889c42a8d82a6514f4764cd3aaa518dc8ba1ae5c5f75bf4df1ce99",
+      "library": "libfile_11b361a3a9b08191b3bfb4497acb01de",
+      "attachment_sha": "9636cb9b5df8ccccf838a196518299b515e0d04ebee7d6f7c87024347cefe4d0",
+      "crop": [
+        530,
+        0,
+        1295,
+        852
+      ],
+      "cls": "photo-5",
+      "alt": "L Hopkins in a frontal track pose with one finger raised",
+      "published_file_sha256": "c6583b803343196041d82f579276e5add0c232da29cc5d548516a6f02b8f363e",
+      "dimensions": [
+        1846,
+        852
+      ]
+    },
+    {
+      "section": "contact",
+      "source": "ChatGPT Image Oct 18, 2026, 10_57_36 PM-4.png",
+      "name": "School-Selected-Smiling-Edited.png",
+      "pixel": "287c80abe58473abc72f8cd38a530cde34f00f9b541e9deea3243269dd385962",
+      "library": "libfile_4fa4298217f4819183868da5054cb11e",
+      "attachment_sha": "549e07a5f712a49ee68234c49d83cff93df728282b3be4a3299da594c111fd37",
+      "crop": [
+        276,
+        0,
+        796,
+        1448
+      ],
+      "cls": "photo-2",
+      "alt": "L Hopkins smiling in her school uniform with her hands behind her back",
+      "published_file_sha256": "d8b3a842653170ecf30766857e68b590b86a27cc53204c71b663f91c47f5f4a1",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    }
+  ]
+}
