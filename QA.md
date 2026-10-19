@@ -91,3 +91,7 @@ Entrance observer now tracks invisible1px geometry marker at outline-top+16px de
 Track Accomplishments and School Contact now use the two explicitly selected edited attachments. Local copies verified pixel-identical to attachments with independent decoded RGBA hashes. Source files copied intact, preserving embedded metadata; CSS framing only. See content/selected-edited-provenance.json. Prior IMG1989/IMG2541 pending replacements superseded.
 
 Local replacement QA passed at widths 1440, 1024, 800, 390, and 320: image decode, bottom anchors, full subject bounds, frame layer order, reduced-motion static rendering, no horizontal overflow or JavaScript errors. Desktop/mobile screenshots inspected for both replacements. Track retains its source thigh cutoff; School retains head and shoes.
+
+
+## Shared category disclosure — 2026-10-19
+Any Known For summary now opens/closes all three panels. One activation handler updates shared state, native open attributes, plus/minus glyphs, aria-expanded and aria-controls; no toggle-event feedback loop. Native keyboard activation and focus are retained. No transition added. Existing factual Track copy remains pending official Arizona ranking/record verification.

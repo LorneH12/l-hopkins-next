@@ -79,3 +79,30 @@ if ('IntersectionObserver' in window && !reducedMotion.matches) {
 
 // CSS handles scroll-linked opacity; no-JS and reduced-motion use static tones.
 document.documentElement.classList.add('tonal-motion');
+
+// Each native summary controls the same three-panel expanded state.
+// Handle activation once; do not feed native toggle events back into state.
+const categoryPanels = [...document.querySelectorAll('.category details')];
+let categoriesExpanded = categoryPanels.some(panel => panel.open);
+function setCategoriesExpanded(expanded) {
+  categoriesExpanded = expanded;
+  categoryPanels.forEach(panel => {
+    panel.open = expanded;
+    const summary = panel.querySelector('summary');
+    summary.setAttribute('aria-expanded', String(expanded));
+    summary.querySelector('.plus').textContent = expanded ? '−' : '+';
+  });
+}
+categoryPanels.forEach((panel, index) => {
+  const body = panel.querySelector('.category-body');
+  body.id = 'category-panel-' + (index + 1);
+});
+categoryPanels.forEach(panel => {
+  const summary = panel.querySelector('summary');
+  summary.setAttribute('aria-controls', categoryPanels.map(p => p.querySelector('.category-body').id).join(' '));
+  summary.addEventListener('click', event => {
+    event.preventDefault();
+    setCategoriesExpanded(!categoriesExpanded);
+  });
+});
+setCategoriesExpanded(categoriesExpanded);

@@ -182,3 +182,6 @@
 .cutout-trigger{position:absolute;left:12%;top:calc(18% + 16px);width:1px;height:1px;opacity:0;pointer-events:none}
 .category-image .cutout-trigger{left:10%;top:calc(22% + 16px)}
 @media(max-width:800px){.cutout-trigger{top:calc(18% + 32px)}.category-image .cutout-trigger{top:calc(22% + 32px)}}
+
+/* Shared disclosure uses an explicit minus glyph when all panels are open. */
+.category details[open] .plus{transform:none}
