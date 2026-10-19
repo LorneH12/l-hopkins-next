@@ -97,3 +97,6 @@ Local replacement QA passed at widths 1440, 1024, 800, 390, and 320: image decod
 Any Known For summary now opens/closes all three panels. One activation handler updates shared state, native open attributes, plus/minus glyphs, aria-expanded and aria-controls; no toggle-event feedback loop. Native keyboard activation and focus are retained. No transition added. Existing factual Track copy remains pending official Arizona ranking/record verification.
 
 Track Known For now uses two primary-source historical2025meetrecords, distinct from national accomplishments. No currentrecordholder or foureventranking/60mrecord claims. See content/track-records-provenance.json.
+
+
+Track Known For card uses owner-selected walking three-quarter edited/upscaled image. Independent comparison established same underlying image as attachment. LANCZOS downsample only, CSS crop [550,25,1450,945], native cutoff bottom-aligned. Accomplishments unchanged. Provenance:content/track-card-provenance.json.

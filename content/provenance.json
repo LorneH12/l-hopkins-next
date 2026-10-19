@@ -1,5 +1,5 @@
 {
-  "status": "Published prototype with four original-photo cutouts and two owner-selected edited replacements; rough hero unchanged",
+  "status": "Published prototype with three original-photo cutouts and three owner-selected edited replacements; rough hero unchanged",
   "subject": "L Hopkins",
   "github": {
     "owner": "LorneH12",
@@ -156,5 +156,6 @@
     ],
     "priorPending": "IMG1989 and IMG2541 requests superseded by owner selection",
     "generatedOrEdited": true
-  }
+  },
+  "trackCardReplacement": "content/track-card-provenance.json"
 }

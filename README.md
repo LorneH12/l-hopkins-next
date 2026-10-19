@@ -27,3 +27,5 @@ Current web exports (2026-10-19): subtle alpha-only edge polish on six displayed
 
 ### Current selected image replacements
 Accomplishments and Contact use the two edited images explicitly selected by the owner on October 19, 2026. They are not original-pixel photographic masks. Local source copies are pixel-identical to the selected Library attachments; PNG bytes and embedded credentials remain intact. Only CSS framing is applied. See content/selected-edited-provenance.json for exact hashes, approval, and crops. The earlier pending IMG1989/IMG2541 replacements are superseded.
+
+The Track Known For card additionally uses the owner-selected edited/upscaled image, independently matched to the attached preview. See content/track-card-provenance.json; only web downsampling and CSS framing were applied.

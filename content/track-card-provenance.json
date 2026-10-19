@@ -1,0 +1,26 @@
+{
+  "library_selection": "libfile_7e4d342c4184819193eba1fca3dcc077",
+  "proof": "libfile_58dc29d106948191b4493791fab8266f",
+  "section": "Known For Track card ONLY",
+  "source_file_sha256": "45ae17e9449c0c2979761f055f7c04cc2ff101500126b3a6293d410d20d82a75",
+  "source_dimensions": [
+    7384,
+    3408
+  ],
+  "published_dimensions": [
+    2048,
+    945
+  ],
+  "published_file_sha256": "f7130ff8518550b36a4bdaba4604aaedcc3cab5f5ae024942265333bc10aff95",
+  "path": "assets/selected-edited/Track-KnownFor-Selected-Edited.png",
+  "provenance": "Owner-selected edited/upscaled image. Existing file only, no generation or appearance editing. LANCZOS downsample for web; source retained unchanged in Downloads.",
+  "comparison": "Independent review confirmed same face/expression/hair/arms/uniform/bib/folds/framing/silhouette as selected attachment, minor resampling/sharpness only. Alpha>128 bounds identical [588,50,1345,945]; silhouette overlap99.9819%;median visibleRGBdifference1/255. Not byte/pixel-identical to attachment.",
+  "css_crop": [
+    550,
+    25,
+    1450,
+    945
+  ],
+  "framing": "Looking room retained; native lower-body/hand cutoff bottom-aligned with foreground frame. No reconstruction.",
+  "accomplishments": "unchanged"
+}

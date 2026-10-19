@@ -185,3 +185,8 @@
 
 /* Shared disclosure uses an explicit minus glyph when all panels are open. */
 .category details[open] .plus{transform:none}
+
+/* Selected Track card: preserve source cutoff at the foreground frame bottom. */
+.category-image:has(.selected-track-card){align-items:flex-end;padding:0}
+.category-image .selected-track-card{height:auto;width:min(90%,26.413rem);max-width:90%}
+@media(max-width:800px){.category-image .selected-track-card{width:min(90%,24.457rem)}}
