@@ -1,19 +1,14 @@
-# L Hopkins — next prototype
-Separate seven-section static prototype for the requested NEW PRIVATE LorneH12/l-hopkins-next repository. Existing site/repository unchanged. No deployment.
-## Preview
-Open index.html locally, or serve this folder with a static HTTP server. No build dependencies.
-## Current status
-Existing rough hero MP4 is integrated. Owner-downloaded Library attachment was verified at 8,433,197 bytes and SHA256 42028356b9df0b2daf152e7e01ba253750caea2de7dab952061763d2ac880f6e; original in Downloads retained.
-This is a silent opaque generated review cut, not final accepted likeness or alpha footage. See content/provenance.json.
-Desktop and mobile browser playback tested; reduced-motion initial pause, manual play/pause, late-event pause preservation and contain framing verified. Prior four-width layout checks passed. See QA.md for chronology and limits.
-GitHub CLI and Python installed with owner approval. GitHub sign-in remains pending; no repository or commit created.
-## Pending content
-Approved original/cutout portraits, final track likeness acceptance, approved cutout transfer remains pending. Placeholders explicitly identify these gaps. No invented GPA, email, athletic results or forms.
+# L Hopkins — rough preview
+Live preview: https://lorneh12.github.io/l-hopkins-next/
+Repository: https://github.com/LorneH12/l-hopkins-next
+Public visibility approved by owner after review of source, media, project notes and history. This is a separate prototype; the existing website/repository is unchanged.
+## Included
+Seven expandable viewport-height sections, existing opaque rough hero video, silent 41.5-second highlight montage, Perry game footage, Nike 100m footage and silent 6.5-second student-life excerpt. Source media and visible credits preserved.
+## Pending
+True alpha portraits/cutouts and final Track likeness acceptance. Existing layered packages require owner-assisted transfer and alpha/pixel inspection. Placeholders identify these gaps. Final alpha hero footage is not delivered. No generation or purchases were performed.
+## Verification
+Node syntax; actual browser layout at desktop/tablet/mobile sizes; reduced-motion pause, manual playback, native category keyboard reveal and media decode checks. See QA.md for chronology and limits. The first Pages build succeeded for 9ea79f4e8a5cad5430e7397ac65e704b1e89f0ad; GitHub Pages build history is authoritative for later commits.
+## Local preview
+Open index.html or serve the folder with a static HTTP server. No build dependencies.
 ## Rights
-Original source authored for this prototype. No paid template, external fonts or analytics. Existing media retains original rights. No license is granted to redistribute athlete media.
-
-## Repository
-GitHub authentication verified as LorneH12; new private repository created at https://github.com/LorneH12/l-hopkins-next. Initial source push follows. Earlier sign-in-pending text is historical. No public hosting or deployment configured. Preview by opening index.html or serving locally.
-
-## Additional existing media
-Integrated existing silent 41.5s montage, silent student excerpt, Perry highlights and Nike 100m final from pinned old-repository media, retaining source README and VTT descriptions. No old-repository source edits or template reuse. True alpha cutouts remain pending.
+HTML/CSS/JS authored for this prototype. No paid template source, external fonts or analytics included. Athlete media retains original ownership and visible broadcaster/creator credits. See content/provenance.json and assets/video/README.txt.
