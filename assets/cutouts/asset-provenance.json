@@ -1,0 +1,102 @@
+{
+  "project": "l-hopkins-next",
+  "operation": "Byte-for-byte copies of three existing PNG alpha assets; no new image editing, resizing, recompression or generation.",
+  "status": "Existing asset handoff only; not a new publication or likeness approval.",
+  "files": [
+    {
+      "filename": "Football-F01-existing-alpha.png",
+      "existing_master": "football_exact_composite_v1/F01-source-rgba-master-v1.png",
+      "bytes": 1792278,
+      "sha256": "4fbfda1bac75c9fe30b46097e3c6c9aa4e2435edaa232c186cbcd0fbb9d856e6",
+      "dimensions": [
+        2048,
+        1365
+      ],
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "fully_transparent_pixels": 2095081,
+      "partially_transparent_pixels": 8344,
+      "opaque_pixels": 692095,
+      "alpha_bbox_xyxy": [
+        618,
+        153,
+        1493,
+        1365
+      ],
+      "source_filename": "55561952447_60e67d3bcb_o(1).jpg",
+      "source_library_file_id": "libfile_c257c083789481919da3426e6a099aea",
+      "source_sha256": "8e080c4498a65deb4b235e47d71ea7708d8d15f4bb77d79b6c601153e497e968",
+      "rgb_equal_every_source_pixel": true,
+      "status": "Original photograph; source RGB and existing alpha unchanged. F01 is a mid-shot and has no shoes in the original frame. Technical QA previously passed; selected as approved F01 by current project instruction."
+    },
+    {
+      "filename": "Student-S01-existing-alpha.png",
+      "existing_master": "hero_normalized_2215/student/S01-source-rgba.png",
+      "bytes": 1512598,
+      "sha256": "3975d0be2dc56791679684b3bf1d0c65c7a0bcb0ad19e0ae611133183932c0d7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "fully_transparent_pixels": 1425974,
+      "partially_transparent_pixels": 3732,
+      "opaque_pixels": 143646,
+      "alpha_bbox_xyxy": [
+        1084,
+        43,
+        1363,
+        913
+      ],
+      "source_filename": "l-hopkins-student-entry-proof-v1.png",
+      "source_library_file_id": "libfile_b7732591ef588191beb43d199c0c9c1f",
+      "source_sha256": "4b61f00452027dc2d1d77e77dea9a7a0073ccf749de54ebe488d0c4288cddd58",
+      "rgb_equal_every_source_pixel": true,
+      "status": "Approved generated Student entry proof based on IMG_2523.jpeg, not a pixel-exact cutout of that photograph. Existing alpha master preserves the proof RGB, including face and both shoes."
+    },
+    {
+      "filename": "Track-T01-approved-normalized-alpha.png",
+      "existing_master": "hero_normalized_2215/track/T01-normalized-subject.png",
+      "bytes": 336541,
+      "sha256": "c6efd4cc86d5b497972865508492800d6f62820f9e5c4cff052ebd7c3eb948be",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "fully_transparent_pixels": 1933846,
+      "partially_transparent_pixels": 9204,
+      "opaque_pixels": 130550,
+      "alpha_bbox_xyxy": [
+        393,
+        139,
+        674,
+        1018
+      ],
+      "source_filename": "l-hopkins-track-T01-fresh-source-review-v3.png",
+      "source_library_file_id": "libfile_3cfa1cd14044819181ef41af95fbc561",
+      "source_sha256": "068c6bd1c3057da97152ff8d3c58bb8ea608d83c020fe22652e1700ef014dd0f",
+      "rgb_equal_every_source_pixel": false,
+      "status": "Existing alpha layer from approved normalized Track T01 derivative of conditionally accepted generated v3 proof; known likeness limitation remains. Previous normalization included uniform affine resampling and documented neutralization of unverified shoe marks and tiny bib-footer text. Face/neck were not retouched. Those approved existing changes are retained; this handoff changes no PNG bytes.",
+      "byte_identical_to_existing_normalized_layer": true,
+      "associated_approved_composite_library_file_id": "libfile_3e5902dd89088191800741d8c79889d0",
+      "normalization_record": "hero_normalized_2215/track/track-normalization-record.json"
+    }
+  ],
+  "student_photo_reference": {
+    "filename": "IMG_2523.jpeg",
+    "library_file_id": "libfile_decda1dd797081919e2fe759667abc97",
+    "sha256": "84d128dfafb6f420cc24c88bb864d01dc20e5ba0c24769ae266512d7ec1dd8a7"
+  },
+  "implementation_notes": [
+    "Respect the alpha channel; hidden RGB retains the prior background but is fully transparent outside the matte.",
+    "Use CSS object positioning/transforms for placement. Do not flatten to JPEG, redraw faces, change shoes, stretch anatomy or infer alpha from file previews.",
+    "These native masters have large transparent margins; use the supplied alpha bounds to position them without changing PNG bytes.",
+    "Fine antialiased boundary pixels may retain original background-color contamination. Existing edges are delivered unchanged."
+  ]
+}

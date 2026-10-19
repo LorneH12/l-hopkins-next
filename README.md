@@ -12,3 +12,6 @@ Node syntax; actual browser layout at desktop/tablet/mobile sizes; reduced-motio
 Open index.html or serve the folder with a static HTTP server. No build dependencies.
 ## Rights
 HTML/CSS/JS authored for this prototype. No paid template source, external fonts or analytics included. Athlete media retains original ownership and visible broadcaster/creator credits. See content/provenance.json and assets/video/README.txt.
+
+## Existing subject cutouts
+The owner-supplied three-alpha ZIP was size/hash checked and safely extracted. Original PNG bytes and supplied provenance remain in assets/cutouts/. Football is an original-photo cutout; Student is an approved generated entry; Track retains its conditional likeness limitation and previously approved normalization. CSS frames transparent margins and category mid-shots without modifying pixels. No new image or video generation. Final alpha hero film remains outstanding.

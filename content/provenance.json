@@ -1,5 +1,5 @@
 {
-  "status": "prototype; incomplete media intake; not deployed",
+  "status": "Published rough prototype; existing still alpha cutouts integrated; final hero video pending",
   "subject": "L Hopkins",
   "github": {
     "owner": "LorneH12",
@@ -33,8 +33,21 @@
     "transfer": "Owner-downloaded native Library attachment; matching size/SHA256; copied from Downloads with original retained"
   },
   "portraits": {
-    "status": "pending pixel and alpha verification",
-    "track": "likeness conditionally accepted only; not final approval"
+    "status": "Existing RGBA cutouts verified against supplied SHA256 manifest; PNG bytes unchanged",
+    "manifest": "assets/cutouts/asset-provenance.json",
+    "archiveLibraryId": "libfile_6bc0ef8a0d9881918e5791849dc4b713",
+    "mapping": {
+      "about": "football",
+      "accomplishments": "track",
+      "contact": "student",
+      "categoryCards": "corresponding football, student and track"
+    },
+    "generated": [
+      "student",
+      "track"
+    ],
+    "track": "Existing conditionally accepted likeness; not a newly approved final likeness",
+    "framing": "CSS crops transparent outer margins; category mid-shots intentionally crop lower bodies; full student and track placements retain shoes"
   },
   "facts": [
     {
@@ -42,7 +55,7 @@
       "source": "canonical Notion and authorized coordination handoff"
     },
     {
-      "claim": "2025 USATF National JO girls 13–14 long jump: 1st, 5.17 m, July 25 2025",
+      "claim": "2025 USATF National JO girls 13\u00e2\u20ac\u201c14 long jump: 1st, 5.17 m, July 25 2025",
       "source": "https://results.adkinstrak.com/meets/54731/events/individual/2109552",
       "verification": "authorized team evidence; not independently opened here"
     },
@@ -114,8 +127,7 @@
     ],
     "notes": [
       "Montage and student excerpt are silent in this repository version",
-      "No added audio, newly edited excerpt, or athletic outcome claims",
-      "Cutouts still pending alpha and provenance review"
+      "No added audio, newly edited excerpt, or athletic outcome claims"
     ]
   }
 }

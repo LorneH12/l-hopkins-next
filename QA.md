@@ -38,3 +38,6 @@ Copied only media from read-only pinned LorneH12/l-hopkins-athlete commit 49256a
 
 ## Public preview preflight
 Owner approved public repository after disclosure. Reviewed both prior commits and all20 unique tracked blobs: only authored code/project documentation, scoped source media, descriptions and poster; no secret patterns, unrelated private records or restricted template code found. Existing source notes/history exposure was explicitly approved. No history rewrite required. Added visible rough-preview/portraits-pending label and .nojekyll. Existing montage title dates are retained source editorial overlays, not newly audited game dates.
+
+## Existing cutout integration — 2026-10-19
+Verified archive size, safe entries, three supplied SHA256 hashes and decoded per-pixel alpha counts. Six images load at 320/390/768/1440 widths; no horizontal overflow; all seven sections remain at least viewport tall. Inspected category panel balance, original football mid-shot, full Track/Student shoes, mobile reading order and boundary overlap. No raster edits. Native hero loop retained with explicit loop property; manual/reduced-motion safeguards retained. Live rollover verification follows publication.

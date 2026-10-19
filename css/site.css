@@ -40,3 +40,24 @@
 }
 
 .highlight-player{display:block;width:100%;max-width:76rem;max-height:72svh;aspect-ratio:16/9;object-fit:contain;margin:auto;background:#000}.film-description{width:100%;max-width:76rem;margin:1rem auto;font-size:.9rem}.film-description summary{cursor:pointer}.film-description p{padding:1rem 0}
+
+/* Existing RGBA pixels remain untouched; only transparent exterior is framed. */
+.subject-crop{position:relative;aspect-ratio:var(--ratio);overflow:hidden;flex:none}
+.subject-crop img{position:absolute;left:var(--ix);top:var(--iy);width:var(--iw);height:var(--ih);max-width:none;max-height:none;object-fit:fill}
+.portrait{align-self:start;min-height:0;height:38rem;pointer-events:none}
+.portrait .subject-crop{height:100%;max-width:100%}
+.about .portrait{height:34rem}
+.category-image{padding:2rem 0 0;overflow:hidden;align-items:flex-start;height:27rem}
+.category-image .subject-crop{height:52rem}
+.category-image .subject-football{height:32rem}
+.contact>.portrait{height:32rem;top:-4rem}
+.contact{padding-top:31rem}
+@media(max-width:800px){
+.portrait{height:32rem}.about .portrait{height:28rem}
+.category-image{height:25rem}
+.category-image .subject-crop{height:49rem}
+.category-image .subject-football{height:30rem}
+.contact>.portrait{height:28rem;top:auto;margin-top:-8rem}
+.contact{padding-top:5rem}
+}
+@media(max-width:380px){.about .portrait{height:23rem}}
