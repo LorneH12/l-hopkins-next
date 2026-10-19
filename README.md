@@ -15,3 +15,6 @@ HTML/CSS/JS authored for this prototype. No paid template source, external fonts
 
 ## Existing subject cutouts
 The owner-supplied three-alpha ZIP was size/hash checked and safely extracted. Original PNG bytes and supplied provenance remain in assets/cutouts/. Football is an original-photo cutout; Student is an approved generated entry; Track retains its conditional likeness limitation and previously approved normalization. CSS frames transparent margins and category mid-shots without modifying pixels. No new image or video generation. Final alpha hero film remains outstanding.
+
+## Superseding owner correction
+Original-photo cutouts only. Generated Student/Track stills removed from current layout and repository HEAD; prior commits retain historical versions. Original school IMG_2523 and track IMG_1991 bytes are pending owner-assisted transfer. Background removal only; no reconstruction, uniform recoloring or face/body edits. Hero unchanged pending separate owner decision.

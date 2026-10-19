@@ -33,21 +33,22 @@
     "transfer": "Owner-downloaded native Library attachment; matching size/SHA256; copied from Downloads with original retained"
   },
   "portraits": {
-    "status": "Existing RGBA cutouts verified against supplied SHA256 manifest; PNG bytes unchanged",
+    "status": "Original-photo-only correction: Football retained; generated Student and Track removed from current layout and HEAD. Original school/track cutouts pending bytes.",
     "manifest": "assets/cutouts/asset-provenance.json",
     "archiveLibraryId": "libfile_6bc0ef8a0d9881918e5791849dc4b713",
     "mapping": {
-      "about": "football",
-      "accomplishments": "track",
-      "contact": "student",
-      "categoryCards": "corresponding football, student and track"
+      "about": "original football F01",
+      "footballCategory": "original football F01",
+      "otherSlots": "pending original-photo cutouts"
     },
-    "generated": [
-      "student",
-      "track"
-    ],
+    "generated": [],
     "track": "Existing conditionally accepted likeness; not a newly approved final likeness",
-    "framing": "CSS crops transparent outer margins; category mid-shots intentionally crop lower bodies; full student and track placements retain shoes"
+    "framing": "CSS crops transparent outer margins; category mid-shots intentionally crop lower bodies; full student and track placements retain shoes",
+    "replacementSources": {
+      "school": "IMG_2523.jpeg / libfile_decda1dd797081919e2fe759667abc97",
+      "track": "IMG_1991.jpeg / libfile_f2fa54a36d78819187163be19925ee5c"
+    },
+    "historicalManifest": "assets/cutouts/asset-provenance.json describes superseded delivered package; not current approval"
   },
   "facts": [
     {
