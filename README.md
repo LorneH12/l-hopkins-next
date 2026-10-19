@@ -8,9 +8,12 @@ This is a silent opaque generated review cut, not final accepted likeness or alp
 Desktop and mobile browser playback tested; reduced-motion initial pause, manual play/pause, late-event pause preservation and contain framing verified. Prior four-width layout checks passed. See QA.md for chronology and limits.
 GitHub CLI and Python installed with owner approval. GitHub sign-in remains pending; no repository or commit created.
 ## Pending content
-Approved original/cutout portraits, final track likeness acceptance, competition highlight reel and additional video selections remain pending. Placeholders explicitly identify these gaps. No invented GPA, email, athletic results or forms.
+Approved original/cutout portraits, final track likeness acceptance, approved cutout transfer remains pending. Placeholders explicitly identify these gaps. No invented GPA, email, athletic results or forms.
 ## Rights
 Original source authored for this prototype. No paid template, external fonts or analytics. Existing media retains original rights. No license is granted to redistribute athlete media.
 
 ## Repository
 GitHub authentication verified as LorneH12; new private repository created at https://github.com/LorneH12/l-hopkins-next. Initial source push follows. Earlier sign-in-pending text is historical. No public hosting or deployment configured. Preview by opening index.html or serving locally.
+
+## Additional existing media
+Integrated existing silent 41.5s montage, silent student excerpt, Perry highlights and Nike 100m final from pinned old-repository media, retaining source README and VTT descriptions. No old-repository source edits or template reuse. True alpha cutouts remain pending.

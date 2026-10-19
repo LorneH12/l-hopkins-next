@@ -38,3 +38,5 @@
 .hero-bottom{position:static;order:3}
 .hero-bottom small{font-size:.7rem}
 }
+
+.highlight-player{display:block;width:100%;max-width:76rem;max-height:72svh;aspect-ratio:16/9;object-fit:contain;margin:auto;background:#000}.film-description{width:100%;max-width:76rem;margin:1rem auto;font-size:.9rem}.film-description summary{cursor:pointer}.film-description p{padding:1rem 0}

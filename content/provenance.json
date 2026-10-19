@@ -68,5 +68,53 @@
     "Cropping may remove edge defects, not internal anatomy or likeness drift",
     "Opaque rough cut does not satisfy final alpha requirement"
   ],
-  "licenses": "No paid template source; preserve original media rights"
+  "licenses": "No paid template source; preserve original media rights",
+  "additionalMedia": {
+    "repository": "LorneH12/l-hopkins-athlete",
+    "commit": "49256a6cb660175b668e41a7f6e34899798e7eb0",
+    "scope": "Read-only media copy; no template code copied; older repository media is not claimed to equal v8 hosted assets",
+    "credits": "Original sound/visible creator and broadcaster credits preserved; source README retained",
+    "files": [
+      {
+        "path": "assets/video/l-hopkins-highlights-description.vtt",
+        "bytes": 750,
+        "sha256": "c3f253cb8ae7f2c904f68f9a3fac7adaf4a922be6770951a935f9ae4c51335aa"
+      },
+      {
+        "path": "assets/video/l-hopkins-highlights-poster.jpg",
+        "bytes": 125316,
+        "sha256": "55fcbac4f75c3ef28b22716152cc8f1ee84e8c3936053e40ea5edc3ad91805fe"
+      },
+      {
+        "path": "assets/video/l-hopkins-highlights-v1.mp4",
+        "bytes": 7369943,
+        "sha256": "0e0b12a321a4c7eba2fb72f5d797419becbbcde2a51c9b2d109e95b3756d57d8"
+      },
+      {
+        "path": "assets/video/nike-100m-final.mp4",
+        "bytes": 5319348,
+        "sha256": "42f0ccac1857dc11107590e52c7f3346a0a3042243ebc101b1327bef03046a11"
+      },
+      {
+        "path": "assets/video/perry-highlights.mp4",
+        "bytes": 4528644,
+        "sha256": "5c2d2974adbf59a1e280246971bf56507aaaaf5602bf14709917720256dfa0aa"
+      },
+      {
+        "path": "assets/video/README.txt",
+        "bytes": 303,
+        "sha256": "0907dc8455712fac6d015a4c9707c933c9ea9366e32f268db258dac76432476f"
+      },
+      {
+        "path": "assets/video/student-life.mp4",
+        "bytes": 424310,
+        "sha256": "7f8ce707108f6877b499d4065d453a3649b01f38f59f8ecbd59b65fd4c2ff917"
+      }
+    ],
+    "notes": [
+      "Montage and student excerpt are silent in this repository version",
+      "No added audio, newly edited excerpt, or athletic outcome claims",
+      "Cutouts still pending alpha and provenance review"
+    ]
+  }
 }
