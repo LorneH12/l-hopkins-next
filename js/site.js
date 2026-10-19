@@ -1,7 +1,7 @@
 'use strict';
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const hero = document.querySelector('#hero-video');
-// Decorative hero: one autoplay attempt, static existing poster on fallback.
+// Decorative hero: one autoplay attempt, its own paused frame/static background on fallback.
 const heroMedia = hero.closest('.hero-media');
 const status = document.querySelector('#hero-status');
 let automaticPlaybackAttempted = false;
@@ -42,10 +42,16 @@ const finishCounters = () => counters.forEach(node => { node.textContent = node.
 if ('IntersectionObserver' in window && !reducedMotion.matches) {
   const intros = new IntersectionObserver(entries => entries.forEach(entry => {
     if (!entry.isIntersecting) return;
-    entry.target.classList.add('cutout-entered');
+    entry.target.parentElement.classList.add('cutout-entered');
     intros.unobserve(entry.target);
-  }), { threshold: .15 });
-  document.querySelectorAll('.portrait:has(img), .category-image:has(img)').forEach(node => intros.observe(node));
+  }), { threshold: 1 });
+  document.querySelectorAll('.portrait:has(img), .category-image:has(img)').forEach(node => {
+    const marker = document.createElement('span');
+    marker.className = 'cutout-trigger';
+    marker.setAttribute('aria-hidden', 'true');
+    node.append(marker);
+    intros.observe(marker);
+  });
   const counts = new IntersectionObserver(entries => entries.forEach(entry => {
     if (!entry.isIntersecting) return;
     counts.unobserve(entry.target);

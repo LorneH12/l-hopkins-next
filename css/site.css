@@ -177,6 +177,8 @@
 
 .category-body p.card-number{font-size:clamp(1.6rem,2.4vw,2.5rem);line-height:1.2}
 
-/* Existing static poster remains visible until permitted hero playback starts. */
-.hero-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.hero-media video{visibility:hidden}.hero-media.is-playing video{visibility:visible}.hero-media.is-playing .hero-poster{visibility:hidden}
-@media(prefers-reduced-motion:reduce){.hero-media video{visibility:hidden!important}.hero-media .hero-poster{visibility:visible!important}}
+/* The hero's own decoded frame is the only media fallback; no unrelated poster. */
+.hero-media video{visibility:visible}
+.cutout-trigger{position:absolute;left:12%;top:calc(18% + 16px);width:1px;height:1px;opacity:0;pointer-events:none}
+.category-image .cutout-trigger{left:10%;top:calc(22% + 16px)}
+@media(max-width:800px){.cutout-trigger{top:calc(18% + 32px)}.category-image .cutout-trigger{top:calc(22% + 32px)}}

@@ -80,3 +80,8 @@ Visible hero play/pause button and dependent handlers removed on desktop/mobile;
 Auto-review rejected extracting a new poster frame as conflicting with no-new-images instruction; no extraction ran. Existing poster was reused instead.
 
 Local hero QA1440/390 passed: actual natural end-to-start loop at normal playback speed, muted autoplay under allowed conditions, exactly one play attempt, zero attempts for initial reduced motion, simulated autoplay rejection static fallback with no retry, no hero button/tab stop/errors/overflow, all5nonhero native controls retained. Actual mobile playing/static fallback screenshots inspected.
+
+
+## RFP hero/entrance correction
+RFP report confirmed wrong-looking media was Highlightposter fallback, not a source swap. Removed Highlightposter from Hero only; Highlight keeps its originalposter/source and all5other videos remain manual/nonloop/nonautoplay. Hero falls back to its own decoded frame or staticCSS background, no newmedia. Current Accomplishments Track remains480px source-appropriate height pending verifiedIMG1989 download.
+Entrance observer now tracks invisible1px geometry marker at outline-top+16px desktop/+32pxmobile, not15% of whole subject. Tested1440/390: no entry beforeframevisible, still no entry at8pxvisible, entry by64pxvisible, onceonly after reentry, reducedmotionstatic. Original user screenshots not exposed by read_thread; RFP report and actual rendered reproduction reviewed. Mobileplacement otherwise unchanged pending explicit clarification.
