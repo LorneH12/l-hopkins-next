@@ -9,3 +9,5 @@ These are first-pass alpha masks: fine hair and some original edge colour remain
 Anchor the Football and Track lower cutoffs against the layout bottom; do not present those cropped frames as full bodies. School includes original photographed footwear. The hoodie source had a clipped head and was replaced with the standing School image.
 
 Match the surrounding background and light to the original photograph; do not change subject appearance. See provenance.json for exact original IDs, hashes, alpha bounds, crop and lighting notes.
+
+Current web exports (2026-10-19): subtle alpha-only edge polish on six displayed cutouts; original RGB preserved wherever alpha is nonzero. Hidden RGB zeroed only at alpha0 in all current PNG exports. See content/web-export-provenance.json for source/export hashes. Source manifests describe archival inputs. Unmodified originals retained outside public repo; prior public Git history still contains previous bytes.

@@ -59,3 +59,7 @@ Local Chromium checks at 1440 and 390: scroll opacity changes, reduced-motion/no
 ## Frame depth correction — 2026-10-19
 About (More than a single lane) uses branded #1237B5. Six frames now use back top/side strokes at z0, unchanged subject at z1, and separate foreground bottom stroke at z3, with transparent interiors. Checked local 1440/768/390/320 images and no overflow; dedicated 1440/390/320 assertions verify all six colors, transparent backgrounds and layer order. Desktop About and mobile Football screenshots inspected.
 Front-facing Track replacement for #accomplishments (The work. The moments.) remains pending a faithful source alpha. Current IMG1970 rear three-quarter remains until asset handoff; no substitute or generated imagery used.
+
+
+## Alpha-edge polish and web hygiene
+Six displayed cutouts receive radius0.7px alpha smoothing blended35% inward only; no new outer alpha, no nonzero contour removed, max alpha decrease21–28/255. Every visible/partial RGB triplet remains exact. All8 current PNGs have zero RGB at alpha0; two unused PNGs receive sanitation only. Originals archived outside repo; Git history unchanged. Before/after actual1440/390 screenshots inspected against .08/.82 gradient endpoints: no added halo or whole-image blur, frame/crop relationship intact. Front Track IMG1989 transfer still pending; rejected IMG1991 never used.

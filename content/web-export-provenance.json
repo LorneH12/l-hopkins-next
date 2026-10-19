@@ -1,0 +1,133 @@
+{
+  "scope": "Current web PNG exports only; archival originals retained outside repository. Historical public Git blobs unchanged.",
+  "records": [
+    {
+      "path": "assets/cutouts/Football-F01-existing-alpha.png",
+      "sourceSha256": "4fbfda1bac75c9fe30b46097e3c6c9aa4e2435edaa232c186cbcd0fbb9d856e6",
+      "webSha256": "61b2834883d734236fa5baf359668ccfd62849602eb87d153cb2a299ed6cfcc5",
+      "dimensions": [
+        2048,
+        1365
+      ],
+      "feathered": false,
+      "alphaChangedPixels": 0,
+      "maxAlphaDecrease": 0,
+      "hiddenRgbClearedPixels": 2095081,
+      "visibleRgbUnchanged": true,
+      "nonzeroContourPreserved": true,
+      "method": "alpha only: 35% blend toward min(original,Gaussian radius0.7px); nonzero alpha floor1. RGB zeroed only at original alpha0."
+    },
+    {
+      "path": "assets/cutouts/Football-Outward-Original-55561955322.png",
+      "sourceSha256": "ef17a3fa7c8d5a5d090e2a974921b65507f958d7094c133ed966d43cc3de5198",
+      "webSha256": "884396fffb500c026a38bcac74ba399a0fdacb2b384ac04b8632267d77718fb2",
+      "dimensions": [
+        6960,
+        4640
+      ],
+      "feathered": false,
+      "alphaChangedPixels": 0,
+      "maxAlphaDecrease": 0,
+      "hiddenRgbClearedPixels": 0,
+      "visibleRgbUnchanged": true,
+      "nonzeroContourPreserved": true,
+      "method": "alpha only: 35% blend toward min(original,Gaussian radius0.7px); nonzero alpha floor1. RGB zeroed only at original alpha0."
+    },
+    {
+      "path": "assets/original-six/Football-Outward-Free-Hand.png",
+      "sourceSha256": "8dd3daa2b2367ca96addd8bead6254793b0b153a2a5f236564a6041cad5f727c",
+      "webSha256": "d5a0a2fd1608aff3483d293bb31314ee0cf9e4d9014642750f21a4f581f8d71f",
+      "dimensions": [
+        1365,
+        2048
+      ],
+      "feathered": true,
+      "alphaChangedPixels": 11696,
+      "maxAlphaDecrease": 21,
+      "hiddenRgbClearedPixels": 2261936,
+      "visibleRgbUnchanged": true,
+      "nonzeroContourPreserved": true,
+      "method": "alpha only: 35% blend toward min(original,Gaussian radius0.7px); nonzero alpha floor1. RGB zeroed only at original alpha0."
+    },
+    {
+      "path": "assets/original-six/Football-Outward-Lowered-Arm.png",
+      "sourceSha256": "6c76c2765e75a35ca3a2af5aac9a57e14a00b5014812b6fd61a7f86e3be25d4f",
+      "webSha256": "89237702317a40a37904c0e40e4ef11fc035e2ecdd332042065c3c7ee53205a1",
+      "dimensions": [
+        2048,
+        1365
+      ],
+      "feathered": true,
+      "alphaChangedPixels": 9726,
+      "maxAlphaDecrease": 25,
+      "hiddenRgbClearedPixels": 2291763,
+      "visibleRgbUnchanged": true,
+      "nonzeroContourPreserved": true,
+      "method": "alpha only: 35% blend toward min(original,Gaussian radius0.7px); nonzero alpha floor1. RGB zeroed only at original alpha0."
+    },
+    {
+      "path": "assets/original-six/School-Standing-IMG2523.png",
+      "sourceSha256": "b8232256d8c79d6d063fd00ed79a4fdd380f3b3f5692758465b34589058ee20a",
+      "webSha256": "c2f3db7b44a164a3ce0bc0728febefdc8a8c8dd3f4096f0478a32a07f39cfbaa",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "feathered": true,
+      "alphaChangedPixels": 8361,
+      "maxAlphaDecrease": 26,
+      "hiddenRgbClearedPixels": 1497352,
+      "visibleRgbUnchanged": true,
+      "nonzeroContourPreserved": true,
+      "method": "alpha only: 35% blend toward min(original,Gaussian radius0.7px); nonzero alpha floor1. RGB zeroed only at original alpha0."
+    },
+    {
+      "path": "assets/original-six/School-Street-IMG2542.png",
+      "sourceSha256": "47bc5151d023eb48a95371b824bbb552fa774b2996a0af3ac7ea2029aa0aadcb",
+      "webSha256": "8281f9d134d3c671099d2446216bfe7e7aa8031824094d63782b27c2700415f0",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "feathered": true,
+      "alphaChangedPixels": 4739,
+      "maxAlphaDecrease": 28,
+      "hiddenRgbClearedPixels": 1676223,
+      "visibleRgbUnchanged": true,
+      "nonzeroContourPreserved": true,
+      "method": "alpha only: 35% blend toward min(original,Gaussian radius0.7px); nonzero alpha floor1. RGB zeroed only at original alpha0."
+    },
+    {
+      "path": "assets/original-six/Track-Rear-Three-Quarter-IMG1970.png",
+      "sourceSha256": "9df835c2c0ccf2c20f9891e202b3f613c49cb55de246f0883b08c7eb4344d960",
+      "webSha256": "db4c098fefe502d5e94d5f37943b7d040ee68fdf476a99c8a58ec1de2d928e90",
+      "dimensions": [
+        1536,
+        709
+      ],
+      "feathered": true,
+      "alphaChangedPixels": 2535,
+      "maxAlphaDecrease": 25,
+      "hiddenRgbClearedPixels": 822438,
+      "visibleRgbUnchanged": true,
+      "nonzeroContourPreserved": true,
+      "method": "alpha only: 35% blend toward min(original,Gaussian radius0.7px); nonzero alpha floor1. RGB zeroed only at original alpha0."
+    },
+    {
+      "path": "assets/original-six/Track-Side-Walking-IMG1966.png",
+      "sourceSha256": "81c873bc35b69a5e20507c16355a8aa17ea0284c94ea809c078d2de9a444b95f",
+      "webSha256": "994b46037a8b3cd84adf37a82609c5105e1300b56e19cda514db625ca824f5a9",
+      "dimensions": [
+        1536,
+        709
+      ],
+      "feathered": true,
+      "alphaChangedPixels": 4213,
+      "maxAlphaDecrease": 26,
+      "hiddenRgbClearedPixels": 817413,
+      "visibleRgbUnchanged": true,
+      "nonzeroContourPreserved": true,
+      "method": "alpha only: 35% blend toward min(original,Gaussian radius0.7px); nonzero alpha floor1. RGB zeroed only at original alpha0."
+    }
+  ]
+}

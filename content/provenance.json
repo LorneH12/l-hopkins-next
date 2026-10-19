@@ -33,7 +33,7 @@
     "transfer": "Owner-downloaded native Library attachment; matching size/SHA256; copied from Downloads with original retained"
   },
   "portraits": {
-    "status": "Six original-photo alpha-only masks; package/hash verified; unchanged PNGs",
+    "status": "Original-photo web exports: restrained alpha edge polish; visible RGB unchanged; alpha-zero RGB cleared",
     "packageLibraryId": "libfile_f981133dbc688191a54dffa8caf6608f",
     "packageSha256": "1a0216aa8929cebefcba10355c6a722b59e9140fa731762159ed41b3d1cd1420",
     "manifest": "assets/original-six/provenance.json",
@@ -50,7 +50,9 @@
       "Track originals are small thigh-cropped photos; no added lower body",
       "Hoodie omitted because source clips head; standing school substituted",
       "Source appearance unmodified; backgrounds adjusted only"
-    ]
+    ],
+    "webExportManifest": "content/web-export-provenance.json",
+    "sourceManifestNote": "assets/original-six/provenance.json records original source package; current export hashes are in web-export-provenance.json"
   },
   "facts": [
     {
