@@ -190,3 +190,10 @@
 .category-image:has(.selected-track-card){align-items:flex-end;padding:0}
 .category-image .selected-track-card{height:auto;width:min(90%,26.413rem);max-width:90%}
 @media(max-width:800px){.category-image .selected-track-card{width:min(90%,24.457rem)}}
+
+/* Existing brand treatment remains visible when video cannot start. No image asset. */
+.hero-fallback{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:1rem;padding:2rem;background:linear-gradient(130deg,#080F25,#102879);color:#fff}
+.hero-fallback .eyebrow{color:#A8E5C0}.fallback-title{font-size:clamp(1.2rem,2vw,2rem);font-weight:800;line-height:1.2}.fallback-note{font-size:.75rem;line-height:1.4;color:#d4dbea}
+.hero-media.is-playing .hero-fallback{display:none}
+@media(min-width:801px){.hero-fallback{padding-left:57%;padding-right:5%}}
+@media(max-width:800px){.hero-fallback{padding:1.2rem;gap:.5rem}.hero-fallback .eyebrow{font-size:.6rem}.fallback-note{font-size:.65rem}}

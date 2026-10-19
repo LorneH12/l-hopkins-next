@@ -100,3 +100,7 @@ Track Known For now uses two primary-source historical2025meetrecords, distinct 
 
 
 Track Known For card uses owner-selected walking three-quarter edited/upscaled image. Independent comparison established same underlying image as attachment. LANCZOS downsample only, CSS crop [550,25,1450,945], native cutoff bottom-aligned. Accomplishments unchanged. Provenance:content/track-card-provenance.json.
+
+
+## Mobile hero loading correction
+Removed loadeddata gate that depended on frame decoding despite preload=metadata. A permitted muted play request now starts loading directly. Reduced-motion does not autoplay; rejected requests are not retried. Branded CSS/text fallback prevents an empty media region without a poster asset. Original MP4 and five manual players unchanged. Desktop/mobile Chromium testing covers natural loop, startup before loadeddata, reduced-motion and simulated autoplay rejection. Physical iPhone/Safari behavior remains unverified; RFP screenshot pixels unavailable and latest coordination status systemError.

@@ -16,10 +16,11 @@ function attemptHeroPlayback() {
   if (automaticPlaybackAttempted || reducedMotion.matches || document.hidden) return;
   automaticPlaybackAttempted = true;
   hero.autoplay = true;
+  hero.preload = 'auto';
   hero.play().catch(staticHero);
 }
-hero.addEventListener('loadeddata', attemptHeroPlayback, { once: true });
-if (hero.readyState >= 2) attemptHeroPlayback();
+// Start the permitted request directly: metadata-only loading need not emit loadeddata.
+attemptHeroPlayback();
 hero.addEventListener('playing', () => {
   if (reducedMotion.matches || document.hidden) { staticHero(); return; }
   heroMedia.classList.add('is-playing');
@@ -27,11 +28,11 @@ hero.addEventListener('playing', () => {
 hero.addEventListener('pause', () => heroMedia.classList.remove('is-playing'));
 reducedMotion.addEventListener('change', event => {
   if (event.matches) { hero.autoplay = false; staticHero(); }
-  else if (hero.readyState >= 2) attemptHeroPlayback();
+  else attemptHeroPlayback();
 });
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) staticHero();
-  else if (hero.readyState >= 2) attemptHeroPlayback();
+  else attemptHeroPlayback();
 });
 function mediaError(video){if(video===hero){staticHero();status.textContent='The rough review film could not load. Please try again.';}else{const message=video.parentElement.querySelector('.media-status');if(message)message.textContent='This video could not load. Please try again.';}}
 document.querySelectorAll('video').forEach(video=>{video.addEventListener('error',()=>mediaError(video));video.querySelectorAll('source').forEach(source=>source.addEventListener('error',()=>mediaError(video)));});

@@ -31,8 +31,8 @@
     "localBytesVerified": true,
     "sha256": "42028356b9df0b2daf152e7e01ba253750caea2de7dab952061763d2ac880f6e",
     "transfer": "Owner-downloaded native Library attachment; matching size/SHA256; copied from Downloads with original retained",
-    "playback": "Approved15.958s roughMP4 unchanged; one muted autoplay attempt/native loop/playsinline/nohero controls. Other5players manual/nonloop/nonautoplay. Reduced/blocked states do not retry.",
-    "staticFallback": "Hero own decoded paused frame when available; otherwise existing static CSS background. No unrelated Highlight poster or newly generated poster."
+    "playback": "One immediate permitted muted play request, preload auto in normal-motion mode; no decoded-frame startup dependency. Loop/playsinline retained, no visible hero controls. Reduced-motion zero attempts; rejected autoplay one attempt, no retry. Five other players unchanged.",
+    "staticFallback": "Existing branded CSS colors and text within video region while paused/unavailable; no image/poster or new media."
   },
   "portraits": {
     "status": "Original-photo web exports: restrained alpha edge polish; visible RGB unchanged; alpha-zero RGB cleared",
