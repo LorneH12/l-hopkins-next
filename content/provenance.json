@@ -30,7 +30,9 @@
     ],
     "localBytesVerified": true,
     "sha256": "42028356b9df0b2daf152e7e01ba253750caea2de7dab952061763d2ac880f6e",
-    "transfer": "Owner-downloaded native Library attachment; matching size/SHA256; copied from Downloads with original retained"
+    "transfer": "Owner-downloaded native Library attachment; matching size/SHA256; copied from Downloads with original retained",
+    "playback": "Owner requested removal of visible hero controls only; one muted autoplay attempt, infinite native loop, playsinline. Reduced motion/blocked autoplay use existing highlight poster, no retry loop.",
+    "staticFallback": "assets/video/l-hopkins-highlights-poster.jpg (existing asset reused; no newly generated image)"
   },
   "portraits": {
     "status": "Original-photo web exports: restrained alpha edge polish; visible RGB unchanged; alpha-zero RGB cleared",
