@@ -111,3 +111,24 @@
 
 /* Decorative frame interiors share the unmodified section background. */
 .category-image,.portrait,.subject-crop{background:none;box-shadow:none;backdrop-filter:none}
+
+/* Same-family tonal depth. Static base remains attractive without scripting. */
+.about,.library,.track{--tone-1:#f4f6f8;--tone-2:#e3e8ed;--tone-3:#cbd3dc;--tone-4:#b9c5d1}
+.accomplishments,.football{--tone-1:#063d26;--tone-2:#096138;--tone-3:#0d7d3f;--tone-4:#0b5031}
+.contact,.student{--tone-1:#0b1d64;--tone-2:#1237b5;--tone-3:#284fae;--tone-4:#102879}
+.known,.highlight{--tone-1:#080f25;--tone-2:#101f43;--tone-3:#182d58;--tone-4:#0c1734}
+.screen:not(.hero),.category{background:linear-gradient(135deg,var(--tone-1),var(--tone-2) 36%,var(--tone-3) 72%,var(--tone-4))}
+.category{position:relative;isolation:isolate}
+.screen:not(.hero)::before,.category::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(150deg,var(--tone-3),var(--tone-4) 36%,var(--tone-2) 72%,var(--tone-1));opacity:.28}
+/* Native scroll timelines animate only composited opacity: no scroll listeners,
+   layout measurements, changing gradient stops, or permanent will-change layers. */
+@supports (animation-timeline:view()){
+  @media(prefers-reduced-motion:no-preference){
+    .tonal-motion .screen:not(.hero)::before,.tonal-motion .category::before{
+      animation:tonal-roll 1s linear both;
+      animation-timeline:view();
+      animation-range:entry 0% exit 100%;
+    }
+  }
+}
+@keyframes tonal-roll{from{opacity:.08}to{opacity:.82}}

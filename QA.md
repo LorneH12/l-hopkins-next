@@ -49,3 +49,8 @@ Scroll detail update: cutouts remain visible before IntersectionObserver; once-o
 Six-original update: ZIP exact bytes/SHA verified, safe filenames and every individual PNG hash verified. Six unchanged original-photo alpha files integrated across six distinct placements. Four widths320/390/768/1440: all load, no horizontal overflow, all sections at least viewport height. Inspected desktop cards/accomplishments and mobile About/Contact. Cropped bottoms meet outlines; real School shoes retained. First-pass fringe and small Track resolution remain. No hero/source video changes.
 
 Frame correction: 1px pure-white border at full opacity; explicit no background/shadow/backdrop on frame and portrait wrappers. Removed category-image radial tint. Desktop category and mobile Contact screenshots inspected: continuous section background through outline interior, subject in front, no clipped hands/heads. All4 widths load and no overflow. PNG/video/JS/stat source unchanged.
+
+
+## Same-family scroll tones — 2026-10-19
+Four-stop green, blue/navy and silver section gradients, with a reversed gradient layer animated only in opacity through native CSS view timelines. No scroll handler or layout reads. No-JS, unsupported browsers and reduced motion keep a static blend. Hero/video, portrait pixels and transparent white frames unchanged.
+Local Chromium checks at 1440 and 390: scroll opacity changes, reduced-motion/no-JS opacity stays .28 with no animation, six unfilled white frames, no horizontal overflow. Actual screenshots inspected. Lowest palette contrast: white/green 5.22:1, white/blue 7.45:1, ink/silver 10.15:1; large mint milestone numerals/green 3.64:1. Intermediate blends remain within these luminance bounds.

@@ -51,3 +51,6 @@ if ('IntersectionObserver' in window && !reducedMotion.matches) {
     if (event.matches) { counts.disconnect(); intros.disconnect(); finishCounters(); }
   });
 }
+
+// CSS handles scroll-linked opacity; no-JS and reduced-motion use static tones.
+document.documentElement.classList.add('tonal-motion');
