@@ -38,7 +38,7 @@
     "archiveLibraryId": "libfile_6bc0ef8a0d9881918e5791849dc4b713",
     "mapping": {
       "about": "original football F01",
-      "footballCategory": "original football F01",
+      "footballCategory": "Original outward-ball 55561955322 from owner L Cutout work.pptx / ppt/media/image9.png",
       "otherSlots": "pending original-photo cutouts"
     },
     "generated": [],
@@ -48,7 +48,19 @@
       "school": "IMG_2523.jpeg / libfile_decda1dd797081919e2fe759667abc97",
       "track": "IMG_1991.jpeg / libfile_f2fa54a36d78819187163be19925ee5c"
     },
-    "historicalManifest": "assets/cutouts/asset-provenance.json describes superseded delivered package; not current approval"
+    "historicalManifest": "assets/cutouts/asset-provenance.json describes superseded delivered package; not current approval",
+    "outwardFootball": {
+      "path": "assets/cutouts/Football-Outward-Original-55561955322.png",
+      "sha256": "ef17a3fa7c8d5a5d090e2a974921b65507f958d7094c133ed966d43cc3de5198",
+      "original": "C:/Users/lorne/Downloads/55561955322_cf60f4d266_o.jpg",
+      "source": "Owner L Cutout work.pptx, ppt/media/image9.png",
+      "dimensions": [
+        6960,
+        4640
+      ],
+      "verification": "Same original pose, no reconstructed visible body or footwear. Browser-decoded fully opaque RGB differs at most 1/255 per channel from original JPEG (codec rounding); alpha mask retains original crop. Existing PNG copied unchanged.",
+      "originalLibraryId": "libfile_361042082d8c81919aeb832c4311d124"
+    }
   },
   "facts": [
     {

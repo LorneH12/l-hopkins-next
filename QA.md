@@ -41,3 +41,5 @@ Owner approved public repository after disclosure. Reviewed both prior commits a
 
 ## Existing cutout integration — 2026-10-19
 Verified archive size, safe entries, three supplied SHA256 hashes and decoded per-pixel alpha counts. Six images load at 320/390/768/1440 widths; no horizontal overflow; all seven sections remain at least viewport tall. Inspected category panel balance, original football mid-shot, full Track/Student shoes, mobile reading order and boundary overlap. No raster edits. Native hero loop retained with explicit loop property; manual/reduced-motion safeguards retained. Live rollover verification follows publication.
+
+Original outward-ball incremental update: unchanged PNG extracted from owner L Cutout work.pptx image9; compared to original 55561955322. 5,524,940 opaque pixels differ at most 1/255 per RGB channel in browser decode; all 474,955 partial-alpha pixels within premultiplication-rounding tolerance. No visible reconstruction or footwear. Four viewport image/overflow checks passed; desktop and 320px pixels inspected. Football category uses outward pose; About retains ball-hold. Video unchanged.

@@ -61,3 +61,7 @@
 .contact{padding-top:5rem}
 }
 @media(max-width:380px){.about .portrait{height:23rem}}
+
+/* Original outward-ball silhouette; maintain complete ball and natural crop. */
+.category-image .subject-outward{height:32rem}
+@media(max-width:800px){.category-image .subject-outward{height:30rem}}
